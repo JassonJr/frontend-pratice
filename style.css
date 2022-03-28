@@ -121,7 +121,7 @@ button:hover {
 
 @media only screen and (max-width:1000px){
   .container{
-    height: 150%;
+    height: 100%;
   }
   .wrapper{
     height:80%;
@@ -129,9 +129,6 @@ button:hover {
   }
   h2{
     font-size:70px;
-  }
-  .centraliza{
-    
   }
   .poke,.pkmn,.svg{
     height:400px;
