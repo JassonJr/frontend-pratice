@@ -10,11 +10,11 @@ html {
   box-sizing: border-box;
 }
 .container{
-    min-height: 100vh;
+    height:100%;
     width: 100%;
     padding-left: 5%;
     padding-right: 5%;
-    padding-top: 10%;
+    padding-top: 3%;
     padding-bottom: 3%;
     background:#193059
 }
@@ -25,7 +25,6 @@ html {
 .wrapper
 {
   position: relative;
-  
   padding:5%;
   align-items: center;
   height: 50%;
@@ -35,7 +34,6 @@ html {
   position: relative;
   display: flex;
   justify-content: center;
-  margin-top: 10;
 }
 h2{
   color: aliceblue;
@@ -47,7 +45,7 @@ h2{
 }
 .pkmn{
   position:relative;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .poke{
   position: absolute;
@@ -59,7 +57,7 @@ h2{
 {
   position: relative;
   width:150px;
-  bottom:40;
+  bottom:30;
   left:-10;
   transform: rotateX(75deg) translateY(220%);
 }
@@ -93,7 +91,6 @@ button{
   text-align: center;
   font-size: 15px;
   padding: 20px;
-  width: 30%;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
