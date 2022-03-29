@@ -121,18 +121,18 @@ button:hover {
 
 .rodape{
   position:absolute;
-  bottom:0;
+  bottom:15;
   left:50%;
   transform: translateX(-50%);
   text-align:center;
 }
 a{
-  font-size:15px;
+  font-size:1vmax;
   color:azure;
   text-decoration:none;
 }
 
-@media only screen and (max-width:1000px){
+@media only screen and (orientation:portrait){
   .container{
     height: 100%;
   }
@@ -155,5 +155,8 @@ a{
     font-size:30px;
     width:300px;
     height:200px;
+  }
+  .rodape{
+    bottom: 30;
   }
 }
